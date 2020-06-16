@@ -16,10 +16,10 @@ In particolare, il seme permette la rigenerazione di mondi con la stessa disposi
 
 	java Main <dimensione_griglia> <densità_ostacoli> <seme>
 
-dove:
-- <dimensione_griglia> è un int strettamente maggiore di 0 che indica la dimensione della griglia (righe e colonne);
-- <densità_ostacoli> è un double nell’intervallo (0 , 1) che indica la densità degli ostacoli (percentuale di celle “bloccate” per il robot);
-- "seed" è un long che viene utilizzato come seme per la generazione casuale degli ostaocoli in modo da garantire la ripetibilità degli esperimenti.
+dove: <br>
+<dimensione_griglia> è un int strettamente maggiore di 0 che indica la dimensione della griglia (righe e colonne); <br>
+<densità_ostacoli> è un double nell’intervallo (0 , 1) che indica la densità degli ostacoli (percentuale di celle “bloccate” per il robot); <br>
+"seed" è un long che viene utilizzato come seme per la generazione casuale degli ostaocoli in modo da garantire la ripetibilità degli esperimenti.
 
 5) Il programma deve fornire in uscita il percorso individuato o l’indicazione che non esiste un percorso.
 
@@ -33,10 +33,10 @@ L’output del programma è una ***singola riga*** in console che contiene le se
 
 	Percorso: <cella_1> <cella_2> <cella_3> ...
 
-dove: <br>
-<cella_i> è una cella del percorso dalla posizione iniziale alla posizione obiettivo; <br>
-il formato per <cella_i> è (riga, colonna); <br>
-le celle sono visualizzate nella stessa sequenza a del percorso.
+dove:
+- <cella_i> è una cella del percorso dalla posizione iniziale alla posizione obiettivo;
+- il formato per <cella_i> è (riga, colonna);
+- le celle sono visualizzate nella stessa sequenza a del percorso.
 
 2) Nel caso in cui non esista un percorso dalla cella iniziale al target, la riga ha la sintassi:
 
